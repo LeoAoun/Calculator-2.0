@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300;400;500;600;700&family=Righteous&family=Sarala&display=swap');
+
+body{
+    font-family:  'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    
+}
+#credits{
+    
+    text-decoration: none;
+    color: white;
+    border-color: #190A05;
+    font-size: 14px;
+    padding: 2px 6px 2px 6px;
+    font-family: 'Open Sans', sans-serif;
+    border-style: solid;
+    border-radius: 20px;
+    background: #870000; 
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  
+    background: linear-gradient(to right, #190A05, #870000); 
+    text-shadow: 2px 2px 1px black;
+    position: absolute;
+    bottom: -33px;
+}
+#credits:hover{
+    font-size: 15px;
+}
+#container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #F7971E; 
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E); 
+    background: linear-gradient(to right, #FFD200, #F7971E); 
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+
+
+
+}
+button{
+    
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 14px;
+}
+#screen{
+    font-size: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(221,252,255);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 280px;
+    min-height: 77px;
+    word-wrap: break-word;
+    overflow: auto;
+    padding-left: 10px;
+
+}
+button:hover{
+    background-color: rgb(185, 185, 185);
+}
