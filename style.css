@@ -76,3 +76,21 @@ button{
 button:hover{
     background-color: rgb(185, 185, 185);
 }
+.green:hover{
+    background-color: rgb(118, 209, 126);
+}
+.green{
+    background-color: rgb(134,254,146)
+}
+.red{
+    background-color: rgb(254,172,138)
+}
+.red:hover{
+    background-color: rgb(253, 150, 106)
+}
+.yellow{
+    background-color: rgb(255, 244, 93);
+}
+.yellow:hover{
+    background-color: rgb(206, 196, 52);
+}
